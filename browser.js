@@ -2,7 +2,10 @@
 
 var ws = null
 
-if (typeof WebSocket !== 'undefined') {
+if (typeof global !== 'undefined' && global.expo && global.expo.WebSocket) {
+  // Expo environment
+  ws = global.expo.WebSocket
+} else if (typeof WebSocket !== 'undefined') {
   ws = WebSocket
 } else if (typeof MozWebSocket !== 'undefined') {
   ws = MozWebSocket
