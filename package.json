@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-ws",
+  "name": "isomorphic-gecko",
   "version": "5.0.1",
   "description": "Isomorphic implementation of WebSocket with Expo support",
   "main": "node.js",

@@ -31,13 +31,13 @@ Some major differences:
 You need to install both this package and [ws](https://github.com/websockets/ws):
 
 ```
-> npm i isomorphic-ws ws
+> npm i isomorphic-gecko ws
 ```
 
 Then just require this package:
 
 ```js
-const WebSocket = require('isomorphic-ws');
+const WebSocket = require('isomorphic-gecko');
 
 const ws = new WebSocket('wss://websocket-echo.com/');
 
