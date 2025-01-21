@@ -1,13 +1,13 @@
 {
   "name": "isomorphic-gecko",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Isomorphic implementation of WebSocket with Expo support",
   "main": "node.js",
   "types": "index.d.ts",
   "browser": "browser.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heineiuo/isomorphic-ws.git"
+    "url": "git+https://github.com/gecko-the-sane/isomorphic-gecko.git"
   },
   "keywords": [
     "browser",
@@ -22,11 +22,16 @@
   "author": "@heineiuo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heineiuo/isomorphic-ws/issues"
+    "url": "https://github.com/gecko-the-sane/isomorphic-gecko/issues"
   },
-  "homepage": "https://github.com/heineiuo/isomorphic-ws#readme",
+  "homepage": "https://github.com/gecko-the-sane/isomorphic-gecko#readme",
   "peerDependencies": {
     "ws": "*"
+  },
+  "peerDependenciesMeta": {
+    "ws": {
+      "optional": true
+    }
   },
   "files": [
     "index.d.ts",

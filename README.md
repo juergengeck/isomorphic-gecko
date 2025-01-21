@@ -1,6 +1,4 @@
-clone of 
-
-# isomorphic-ws
+# isomorphic-gecko
 
 WebSocket client with support for Node.js, browsers, and Expo/React Native.
 
@@ -26,15 +24,23 @@ Some major differences:
   [`options`](https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketaddress-protocols-options)
   argument in browsers or Expo
 
-## Usage
+## Installation
 
-You need to install both this package and [ws](https://github.com/websockets/ws):
+### Node.js
+For Node.js environments, you need to install both this package and [ws](https://github.com/websockets/ws):
 
 ```
 > npm i isomorphic-gecko ws
 ```
 
-Then just require this package:
+### Browsers and Expo
+For browser or Expo environments, you only need to install this package:
+
+```
+> npm i isomorphic-gecko
+```
+
+## Usage
 
 ```js
 const WebSocket = require('isomorphic-gecko');
